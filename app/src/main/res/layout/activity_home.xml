@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <data>
+        <variable
+            name="homeActivityViewModel"
+            type="david.angulo.productsApp.modules.home.activity.HomeActivityViewModel" />
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="david.angulo.productsApp.modules.home.activity.HomeActivity">
+
+        <FrameLayout
+            android:id="@+id/fragmentContainerHome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <LinearLayout
+            android:id="@+id/progressContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@color/transparentBlack"
+            android:gravity="center"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                tools:visibility="visible" />
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

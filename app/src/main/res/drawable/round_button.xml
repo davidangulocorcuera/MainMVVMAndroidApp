@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/round_button_disabled_shape" android:state_enabled="false" />
+    <item android:drawable="@drawable/round_button_shape" android:state_pressed="false" /> <!-- pressed -->
+    <item android:drawable="@drawable/round_button_pressed_shape" android:state_pressed="true" /> <!-- focused -->
+    <item android:drawable="@drawable/round_button_shape" android:state_enabled="true" /> <!-- idle mRegisterState -->
+</selector>

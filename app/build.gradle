@@ -1,0 +1,89 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-kapt'
+
+apply plugin: 'kotlin-android-extensions'
+
+
+android {
+
+    kapt {
+        generateStubs = true
+    }
+
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "david.angulo.productsApp"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    dataBinding {
+        enabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+        pre {
+            initWith(buildTypes.debug)
+            debuggable true
+            minifyEnabled false
+        }
+        debug {
+
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation "androidx.preference:preference-ktx:1.1.0"
+
+    // Test
+    testImplementation "junit:junit:4.12"
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:2.0.0"
+    testImplementation 'org.mockito:mockito-inline:2.7.21'
+
+
+    // LifeCycle
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    annotationProcessor "android.arch.lifecycle:compiler:1.1.1"
+
+
+    // Facebook
+    implementation 'com.facebook.android:facebook-login:5.9.0'
+
+    // rx
+    implementation rootProject.ext.rxJava
+    implementation rootProject.ext.rxAndroid
+    implementation rootProject.ext.rxKotlin
+
+    // gson
+    implementation rootProject.ext.gsonConverter
+    implementation rootProject.ext.gson
+
+    // di
+    implementation rootProject.ext.dagger
+    kapt rootProject.ext.daggerApt
+
+    // anko
+    implementation rootProject.ext.anko
+
+
+}

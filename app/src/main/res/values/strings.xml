@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Social Network</string>
+    <string name="facebook_app_id">379652639216449</string>
+    <string name="fb_login_protocol_scheme">fb379652639216449</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up!</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="google">Google</string>
+    <string name="login_with">Access with</string>
+    <string name="or_with_email">Register with email</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="register_with">Register with</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="i_accept_the_use_terms">I accept the use terms</string>
+    <string name="learn_more">Learn more</string>
+    <string name="i_forgot_my_password">I forgot my password</string>
+    <string name="login_error_message">Invalid e-mail or password</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="match_password">Password doesn´t match</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="password_info"><![CDATA[> 6 characters, one capital letter and one number.]]></string>
+    <string name="complete_data">Complete Data</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="male">male</string>
+    <string name="other">other</string>
+    <string name="we_need_your_location">To complete register we need your location</string>
+    <string name="add_location">Add Location</string>
+    <string name="birthday">Birthday</string>
+    <string name="error_age">Only more than 18 years old</string>
+    <string name="add_later">Add later</string>
+    <string name="location_error">Location is necessary</string>
+    <string name="finish_register">You can finish your register!</string>
+    <string name="data_invalid_error">You may complete all the form, your age and your gender</string>
+    <string name="uses_terms_error">May accept uses terms</string>
+    <string name="acces_with_email">Acces with your email</string>
+
+</resources>

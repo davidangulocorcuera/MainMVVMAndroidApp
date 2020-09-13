@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Social Network</string>
+
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Acceder</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="google">Google</string>
+    <string name="login_with">Accede con</string>
+    <string name="or_with_email">Registrate con tu email</string>
+    <string name="back">Volver</string>
+    <string name="next">Siguiente</string>
+    <string name="register_with">Registrate con</string>
+    <string name="confirm_password">Confirma tu contraseña</string>
+    <string name="i_accept_the_use_terms">Acepto los términos de uso</string>
+    <string name="learn_more">Saber más</string>
+    <string name="i_forgot_my_password">He olvidado mi contraseña</string>
+    <string name="login_error_message">Contraseña o email incorrectos</string>
+    <string name="invalid_password">contraseña inválida</string>
+    <string name="match_password">Las contraseñas no coinciden</string>
+    <string name="invalid_email">email inválido</string>
+    <string name="password_info"><![CDATA[> 6 caracteres y un número.]]></string>
+    <string name="complete_data">Completa los datos</string>
+    <string name="gender">Género</string>
+    <string name="female">Mujer</string>
+    <string name="male">Hombre</string>
+    <string name="other">Otro</string>
+    <string name="we_need_your_location">Para completar el registro necesitamos tu localización</string>
+    <string name="add_location">Añadir localización</string>
+    <string name="birthday">Cumpleaños</string>
+    <string name="error_age">Esta app es solo para mayores de 18 años</string>
+    <string name="add_later">Añadir más tarde</string>
+    <string name="location_error">  Para continuar es necesaria la localización</string>
+    <string name="finish_register">Ya puedes terminar tu registro!</string>
+    <string name="data_invalid_error">Debes completar todos los datos, la edad y el género</string>
+    <string name="uses_terms_error">May accept uses terms</string>
+    <string name="acces_with_email">Accede con tu email</string>
+</resources>

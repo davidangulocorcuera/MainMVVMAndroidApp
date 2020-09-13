@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_super_small">4dp</dimen>
+    <dimen name="space_small">8dp</dimen>
+    <dimen name="space_medium_big">30dp</dimen>
+    <dimen name="space_big">30dp</dimen>
+    <dimen name="space_bigger">60dp</dimen>
+    <dimen name="space_biggest">100dp</dimen>
+    <dimen name="btn_width">150dp</dimen>
+    <dimen name="space_medium">15dp</dimen>
+</resources>
